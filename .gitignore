@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.venv/
+venv/
+ENV/
+
+# Nyaya Mitra local RAG data directories (large files)
+database/
+faiss_index/
+bm25_index/
+documents/
+supreme_court_judgments/
+logs/
+cache/
+embeddings/
+models/
+
+# Ignore local config files
+config.json
+
+# Operating System files
+.DS_Store
+Thumbs.db
+*.log
