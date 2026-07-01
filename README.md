@@ -2,6 +2,8 @@
 
 Nyaya Mitra is a production-ready, completely **OFFLINE** Indian AI Legal Advisor that runs on Windows. It combines local Retrieval-Augmented Generation (RAG) using FAISS and BM25 hybrid retrieval, MiniLM Cross-Encoder re-ranking, and the Qwen3:8B model running through local Ollama inference. 
 
+<img width="1890" height="862" alt="image" src="https://github.com/user-attachments/assets/0d944465-9d6c-4f53-8b27-9b191f188478" />
+
 ---
 
 ## 🚀 Key Features
