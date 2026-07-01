@@ -110,7 +110,11 @@ legal_ai/
 
 ---
 
-## ⚖️ Disclaimer
+## ⚖️ Disclaimer & Warnings
 
 > [!WARNING]
-> This application provides educational legal information generated from locally indexed legal materials. It is not legal advice and should not replace consultation with a qualified advocate.
+> **Educational Use Only**: This application provides educational legal information generated from locally indexed legal materials. It is not legal advice and should not replace consultation with a qualified, registered advocate.
+> 
+> **Database Dependency**: RAG accuracy is strictly limited by the documents you choose to ingest. If a law, section, or precedent is missing from your local database directories, the assistant will output "Insufficient supporting legal material". Always verify citations and sections against original official government gazettes.
+> 
+> **Hardware & Memory Limitations**: Ingesting the complete 26,000+ court judgments dataset requires substantial CPU/GPU processing power and time. To prevent local hardware freezes or Out Of Memory (OOM) crashes, run bulk ingestion in batches using the `--limit` or `--years` flags.
