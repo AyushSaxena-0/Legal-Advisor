@@ -30,7 +30,10 @@ Nyaya Mitra is a production-ready, completely **OFFLINE** Indian AI Legal Adviso
 
 ## 📂 Database & Data Sources
 
-This RAG advisor retrieves legal precedents from local indexed documents. To populate your case search capabilities, we leverage:
+This RAG advisor retrieves legal precedents and raw bare acts from local indexed documents. To populate your knowledge base, we leverage:
+* **Constitution of India (COI)**: The official, up-to-date PDF of the Constitution of India.
+  * **Source Link**: [Ministry of Law and Justice - Constitution of India PDF](https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf)
+  * **Usage**: Save the downloaded file as `COI.pdf` in the project root directory and run `python ingest_coi.py` to index the entire Constitution of India.
 * **Legal Dataset (SC Judgments India 1950-2024)**: Over 26,600 Supreme Court judgments in PDF format.
   * **Source Link**: [Kaggle - Legal Dataset SC Judgments India (1950-2024)](https://www.kaggle.com/datasets/adarshsingh0903/legal-dataset-sc-judgments-india-19502024)
   * **Usage**: Download and place the year-wise subdirectories (e.g., `1950/`, `1951/`, etc.) directly inside the `supreme_court_judgments/` directory. Use the `ingest_judgments.py` script to index them into your local databases.
