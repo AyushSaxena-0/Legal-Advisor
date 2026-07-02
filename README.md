@@ -91,6 +91,8 @@ After initialization completes, open your web browser and navigate to:
 ---
 
 ## 📂 Project Structure
+<img width="206" height="730" alt="image" src="https://github.com/user-attachments/assets/f7438f87-0ae3-4dd0-8f0f-0ed3c8b89c49" />
+
 
 ```text
 legal_ai/
